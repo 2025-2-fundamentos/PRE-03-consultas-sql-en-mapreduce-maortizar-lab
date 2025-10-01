@@ -1,4 +1,4 @@
-"""Autograding script."""
+#"""Autograding script."""
 
 # pylint: disable=broad-exception-raised
 # pylint: disable=import-error
@@ -29,3 +29,5 @@ def test_01():
 
             if not os.path.exists(filename):
                 raise Exception(f"The file {filename} does not exist")
+
+
